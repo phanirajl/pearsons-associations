@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mongo-etl_main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0bfd201e-e3bf-4f92-b0e6-7ffba04747a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerEtl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/RunnerGroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/RunnerGroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -37,12 +43,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,22 +80,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="143" column="48" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="48" />
+            <state relative-caret-position="1033">
+              <caret line="133" column="27" lean-forward="true" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#populateTestData#0;class#RunnerSectionAssociation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerGroup.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserOrgAssociation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="29" column="38" selection-start-line="25" selection-start-column="3" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="14">
+              <caret line="179" column="34" selection-start-line="179" selection-start-column="27" selection-end-line="179" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#populateTestData#0;class#RunnerUserOrgAssociation#0" />
               </folding>
             </state>
           </provider>
@@ -509,10 +517,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerOrgUserAssociation.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserOrgAssociation.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserAssociation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerEtl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java" />
       </list>
     </option>
   </component>
@@ -578,7 +586,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="UUIDC&#9;PSI&#9;JAVA://org.bson.codecs.UuidCodec" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569507031265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569512879532" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -597,11 +605,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunnerMember">
+  <component name="RunManager" selected="Application.RunnerSectionAssociation">
     <configuration name="RunnerOrgUserAssociation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.mongodb.etl.RunnerOrgUserAssociation" />
       <module name="mongo-etl_main" />
-      <option name="VM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.orguserTemp&quot; &quot;associations-uniq.orguserassociation&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.orguserTemp&quot; &quot;associations-uniq.orguserassociation&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -609,7 +617,7 @@
     <configuration name="RunnerSectionAssociation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.mongodb.etl.RunnerSectionAssociation" />
       <module name="mongo-etl_main" />
-      <option name="VM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.courseTemp&quot; &quot;associations-uniq.sectionassociation&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.courseTemp&quot; &quot;associations-uniq.sectionassociation&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -617,7 +625,7 @@
     <configuration name="RunnerUserAssociation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.mongodb.etl.RunnerUserAssociation" />
       <module name="mongo-etl_main" />
-      <option name="VM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.userTemp&quot; &quot;associations-uniq.userassociation&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" &quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;associations-uniq.userTemp&quot; &quot;associations-uniq.userassociation&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -660,13 +668,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1440" height="783" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23032904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.32962447" />
@@ -675,13 +684,13 @@
       <window_info anchor="bottom" id="Messages" weight="0.19102749" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36758322" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21997106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4047288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.18669528" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.1702432" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -829,17 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserOrgAssociation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="151" column="60" lean-forward="true" selection-start-line="151" selection-start-column="60" selection-end-line="151" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#populateTestData#0;class#RunnerOrgUserAssociation#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserAssociation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -881,12 +879,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerUserOrgAssociation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="143" column="48" selection-start-line="143" selection-start-column="39" selection-end-line="143" selection-end-column="48" />
+        <state relative-caret-position="14">
+          <caret line="179" column="34" selection-start-line="179" selection-start-column="27" selection-end-line="179" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#populateTestData#0;class#RunnerUserOrgAssociation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mongodb/etl/RunnerSectionAssociation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="133" column="27" lean-forward="true" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#populateTestData#0;class#RunnerSectionAssociation#0" />
           </folding>
         </state>
       </provider>
@@ -897,11 +907,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>unnamed</last-edited>
+          <last-edited>mongo-etl_main:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

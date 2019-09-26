@@ -2,7 +2,7 @@
   <configuration default="false" name="RunnerGroup" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="org.mongodb.etl.RunnerGroup" />
     <module name="mongo-etl_main" />
-    <option name="VM_PARAMETERS" value="&quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;groupmanager.groups&quot; &quot;groupmanager.groups2&quot;" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;mongodb://siteRootAdmin:UIfqk3LRuFtcVmn5@casstomongoreg-shard-00-00-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-01-ubxcu.mongodb.net:27017,casstomongoreg-shard-00-02-ubxcu.mongodb.net:27017/groupmanager?ssl=true&amp;replicaSet=casstomongoreg-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&quot; &quot;groupmanager.groups&quot; &quot;groupmanager.groups2&quot;" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.mongodb.etl.*" />

@@ -49,7 +49,7 @@ public class RunnerSectionAssociation {
         }
 
         // Starting the thread run()
-        new RunnerUserAssociation(args[0], args[1], args[2]).run();
+        new RunnerSectionAssociation(args[0], args[1], args[2]).run();
     }
 
     public RunnerSectionAssociation(String mongoUri, String srcNs, String tgtNs) {
