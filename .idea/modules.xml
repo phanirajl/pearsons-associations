@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mongo-etl.iml" filepath="$PROJECT_DIR$/mongo-etl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mongo-etl_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mongo-etl_main.iml" group="mongo-etl" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mongo-etl_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mongo-etl_test.iml" group="mongo-etl" />
+    </modules>
+  </component>
+</project>
