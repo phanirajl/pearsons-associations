@@ -1,0 +1,20 @@
+Configuration:
+  status: info
+  name: RuntimeLog4j2Config
+
+  Appenders:
+    Console:
+      name: STDOUT
+      PatternLayout:
+        Pattern: "%d{ABSOLUTE} %p %c{4} [%t] %m%n"
+
+  Loggers:
+    Root:
+      level: info
+      AppenderRef:
+        - ref: STDOUT
+    Logger:
+      - name: org.mongodb
+        level: info
+      - name: org.mongodb.driver
+        level: info
